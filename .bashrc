@@ -201,5 +201,5 @@ lowercase() {
     done
 }
 
-PS1="${NO_COLOR}[${MAGENTA}\t${NO_COLOR}] ${LIGHT_RED}\w\n${CYAN}» ${NO_COLOR}"
+PS1="${NO_COLOR}[${MAGENTA}\t${NO_COLOR}]${NO_COLOR}[${NO_COLOR}${BLUE}\h${NO_COLOR}]${NO_COLOR}[${GREEN}\u${NO_COLOR}] ${LIGHT_RED}\w\n${CYAN}» ${NO_COLOR}"
 color_prompt=yes
