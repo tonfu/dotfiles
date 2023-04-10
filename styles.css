@@ -1,0 +1,93 @@
+/* Set italics and comments to the script font */
+*[class*="dyn-rule-"] {
+	vertical-align: revert !important;
+}
+
+.ced-TextEditorDecorationType2-4 {
+    font-style: normal !important;
+    font-size: 1em !important;
+}
+
+.monaco-hover,
+.monaco-hover code,
+.monaco-editor-hover-content hover-row,
+.monaco-editor-hover-content hover-row code,
+.monaco-editor-hover-content hover-row div>span {
+    font-family: "Iosevkara" !important;
+    font-size: 16px !important;
+}
+
+.monaco-editor-hover .monaco-editor-hover-content {
+	max-width: 650px;
+}
+
+#WebviewEditor,
+.codelens-decoration,
+.label-name,
+.label-description,
+.message-left-side,
+.monaco-button.monaco-text-button,
+.monaco-count-badge,
+.monaco-shell,
+.monaco-shell .monaco-menu-container .monaco-menu,
+.monaco-workbench.mac, .monaco-workbench.windows,
+.panel,
+.section,
+.shadow-root-host,
+.title {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.context-view.monaco-menu-container,
+.debug-pane .scope,
+.monaco-editor span[class^="codelens-decoration"],
+.monaco-tree .monaco-tree-rows>.monaco-tree-row>.content>.scope,
+.scm-editor-container span,
+.scm-editor-placeholder {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+}
+
+.scm-editor-placeholder {
+    line-height: inherit !important;
+}
+
+.filematch .label-name,
+.monaco-workbench .debug-pane .monaco-list-row .expression,
+.monaco-workbench .monaco-tree-row .expression,
+.monaco-workbench .monaco-list-row .expression .name, 
+.monaco-workbench .monaco-list-row .expression .value, 
+.monaco-workbench .monaco-list-row .expression .unavailable,
+.monaco-findInput>.monaco-inputbox>.wrapper>input,
+.monaco-scrollable-element>.value,
+.repl-input-wrapper,
+.repl-input-wrapper>.monaco-editor span.mtk1,
+.repl-input-wrapper>.monaco-editor>.overflow-guard .monaco-scrollable-element>.lines-content .view-lines,
+.repl-tree .expression,
+.replace-part>.replace-input>.monaco-inputbox>.wrapper>input,
+.replace-container>.input-box>.monaco-inputbox>.wrapper>input,
+.results.show-file-icons,
+.suggest-input-container .mtk1,
+.search-view .messages,
+.search-widgets-container textarea,
+.title-actions>.monaco-toolbar>.monaco-action-bar>.actions-container>.markers-panel-action-filter>.monaco-inputbox>.wrapper>input {
+    font-family: "Iosevkara" !important;
+    font-size: 16px !important;
+    font-style: normal;
+}
+
+span.codelens-decoration.fadein {
+	font-size: 12px !important;
+}
+
+.monaco-workbench ::selection {
+    background-color: #717CB4;
+}
+
+.monaco-workbench .repl .repl-tree .output .expression .value.info {
+    color: #717CB4;
+}
+
+.editor-container[data-mode-id="haskell"] .monaco-editor { font-feature-settings: "XHS_" 1; }
+.editor-container[data-mode-id="idris"] .monaco-editor { font-feature-settings: "XIDR" 1; }
+.editor-container[data-mode-id="PatEL"] .monaco-editor { font-feature-settings: "XPTL" 1; }
